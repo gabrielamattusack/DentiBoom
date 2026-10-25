@@ -87,32 +87,6 @@ dentiboom/
 
 ---
 
-## ▶️ Como Executar Localmente
-
-Pré-requisito: **Node.js** ou **Python** instalado.
-
-Com Node.js:
-
-```bash
-npx serve .
-```
-
-Com Python:
-
-```bash
-python -m http.server 3000
-```
-
-Depois, abra no navegador:
-
-```
-http://localhost:3000
-```
-
-Para encerrar o servidor, use `Ctrl + C` no terminal.
-
----
-
 ## 📲 Download do Aplicativo
 
 O botão de download aparece como **"Disponível em breve"**. Quando a versão final do APK for publicada, o botão no `index.html` passa a apontar para o link de download do arquivo.
