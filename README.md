@@ -85,8 +85,6 @@ dentiboom/
 └── README.md     # Esta documentação
 ```
 
-> O arquivo entregue se chama `dentiboom.html`. Renomeie para `index.html` para que o GitHub Pages e os servidores locais abram o site direto na raiz.
-
 ---
 
 ## ▶️ Como Executar Localmente
@@ -115,30 +113,9 @@ Para encerrar o servidor, use `Ctrl + C` no terminal.
 
 ---
 
-## 🚀 Como Publicar no GitHub
-
-1. Envie os arquivos para o repositório:
-
-```bash
-git init
-git add index.html README.md
-git commit -m "Site do DentiBoom"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/dentiboom.git
-git push -u origin main
-```
-
-2. No GitHub, abra **Settings › Pages**.
-3. Em **Source**, escolha **Deploy from a branch**, selecione `main` e a pasta `/ (root)`, e salve.
-4. Em alguns minutos, o site fica disponível em `https://SEU-USUARIO.github.io/dentiboom/`.
-
-> Troque `SEU-USUARIO` pelo seu nome de usuário do GitHub.
-
----
-
 ## 📲 Download do Aplicativo
 
-O botão de download aparece como **"Disponível em breve"**. Quando a versão final do APK for publicada, basta trocar o botão no `index.html` pelo link de download do arquivo.
+O botão de download aparece como **"Disponível em breve"**. Quando a versão final do APK for publicada, o botão no `index.html` passa a apontar para o link de download do arquivo.
 
 ---
 
