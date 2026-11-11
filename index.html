@@ -370,17 +370,17 @@ footer .wrap{padding-block:28px;display:flex;flex-wrap:wrap;justify-content:spac
       <div class="dl-card">
         <div class="dl-head">
           <h3>Android · APK</h3>
-          <span class="pill soon">Em breve</span>
+          <span class="pill demo">Versão de validação</span>
         </div>
-        <p>O DentiBoom será disponibilizado para download nesta página assim que a versão final for publicada.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="#baixar" aria-disabled="true" id="dl-btn">Disponível em breve</a></div>
+        <p>Baixe a versão 0.1.0 para validar a instalação e o funcionamento do aplicativo. Esta ainda não é a versão final.</p>
+        <div class="cta-row"><a class="btn btn-primary" href="https://pub-ab1e25987ee24c8f8a3bcf0fe14427d1.r2.dev/DentiBoom-0.1.0-validation.apk" id="dl-btn">Baixar APK de validação</a></div>
       </div>
       <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
         <h3 style="font-size:1.375rem">Como instalar</h3>
         <ol class="steps">
-          <li><p>Toque em <b>Baixar APK</b> no celular Android.</p></li>
-          <li><p>Abra o arquivo baixado. Se o Android pedir, permita a instalação de apps desta fonte.</p></li>
-          <li><p>Abra o DentiBoom e crie o perfil da criança.</p></li>
+          <li><p>Toque em <b>Baixar APK de validação</b> no celular Android.</p></li>
+          <li><p>Quando o download terminar, toque no arquivo para abrir o instalador do Android. Se solicitado, permita a instalação de apps desta fonte.</p></li>
+          <li><p>Revise a solicitação do Android, toque em <b>Instalar</b> e depois abra o DentiBoom.</p></li>
         </ol>
         <p class="note">O app não pede login e guarda os dados no próprio aparelho.</p>
       </div>
@@ -437,7 +437,6 @@ footer .wrap{padding-block:28px;display:flex;flex-wrap:wrap;justify-content:spac
     },100);
   }
   start.addEventListener("click",run);
-  document.getElementById("dl-btn").addEventListener("click",function(e){e.preventDefault();});
 
   /* ---------- Motion com propósito (GSAP), respeitando redução de movimento ---------- */
   if(window.gsap){

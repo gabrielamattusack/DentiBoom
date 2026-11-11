@@ -89,7 +89,7 @@ dentiboom/
 
 ## 📲 Download do Aplicativo
 
-O botão de download aparece como **"Disponível em breve"**. Quando a versão final do APK for publicada, o botão no `index.html` passa a apontar para o link de download do arquivo.
+O botão do `index.html` aponta diretamente para o APK público no Cloudflare R2, sem transferir os bytes pelo servidor do site. O objeto atual, `DentiBoom-0.1.0-validation.apk`, é uma versão de validação e ainda não representa o lançamento final. Ao publicar uma nova versão, atualize o link, o texto e o status exibidos no site.
 
 ---
 
